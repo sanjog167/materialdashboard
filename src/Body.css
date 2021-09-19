@@ -1,0 +1,146 @@
+.bodypart {
+  padding: 10px 40px;
+}
+
+.topmost_bars {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.grayicon {
+  color: gray;
+  font-size: 30px !important;
+}
+
+.grayicon:not(:last-child) {
+  margin-right: 30px;
+}
+
+.other_uis {
+  display: flex;
+  align-items: center;
+}
+
+.topmost_bars .search {
+  flex: 1;
+  width: 100%;
+}
+
+.search input {
+  width: 60%;
+  outline-width: 0;
+  border: 1px solid lightgray;
+  padding: 7px 12px;
+  border-radius: 999px;
+}
+
+.fulltimepart {
+  display: flex;
+}
+
+.totalstaffwithchart {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.totalstaffwithchart {
+  padding: 3rem 1rem;
+  margin-top: 4rem;
+  background: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+}
+
+.total_staff_title h4 {
+  font-size: 22px;
+  color: #004eff;
+  margin-bottom: 30px;
+}
+
+.total_staff_number h2 {
+  font-size: 56px;
+}
+
+.fulltimenumber h4 {
+  font-size: 40px;
+}
+
+.fulltimetitle h4 {
+  font-size: 17px;
+  color: #004eff;
+  margin-bottom: 30px;
+}
+
+.mr-2 {
+  margin-right: 60px;
+}
+
+.totalstaff {
+  position: relative;
+}
+
+.totalstaff::after {
+  position: absolute;
+  content: "";
+  width: 3px;
+  height: 100%;
+  top: 0;
+  right: -50%;
+  background-color: #004eff;
+}
+
+.chartpie img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  margin-top: 20px;
+}
+
+.staff_list {
+  margin-top: 3rem;
+}
+
+.chartpie h4 {
+  margin: 0;
+  font-size: 15px;
+}
+
+.staff_list .fulltimetitle h4 {
+  font-size: 19px;
+}
+
+.stafflists {
+  display: flex;
+  align-items: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.dflex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.staff_online {
+  background-color: #b9f010;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  margin-right: 40px;
+}
+
+.stafflists:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.chartpie span {
+  font-size: 13px;
+  color: gray;
+}

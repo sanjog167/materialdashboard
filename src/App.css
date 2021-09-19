@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.app_body {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  background-color: #f3f2ef;
+  height: 100vh;
+}

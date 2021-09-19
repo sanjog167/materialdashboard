@@ -1,0 +1,67 @@
+.bluesidebar {
+  background-color: #004eff;
+  padding: 20px 60px;
+}
+
+.sidebarlogo h4 {
+  color: white;
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+
+.sidebarlogo {
+  text-align: center;
+}
+
+.bluesidebar li {
+  list-style: none;
+}
+
+.iconz {
+  color: white;
+}
+
+.sidebar_list1main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  margin-left: 30px;
+  color: white;
+}
+
+.sidebar_list1 {
+  display: flex;
+  color: white;
+  margin-top: 40px;
+}
+
+.sidebar_list1 ul {
+  margin-top: 20px;
+  padding-left: 10px;
+}
+
+.sidebar_list1 ul li:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.sidebar_list1 ul li a {
+  color: darkgreen;
+}
+
+.active {
+  color: white !important;
+  font-weight: 600;
+  position: relative;
+}
+
+.active::after {
+  position: absolute;
+  content: "";
+  width: 3px;
+  height: 100%;
+  top: 0;
+  left: -10px;
+  background-color: white;
+}
